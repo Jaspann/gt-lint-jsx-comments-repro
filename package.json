@@ -1,0 +1,13 @@
+{
+  "name": "gt-static-jsx-comment-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src",
+    "fix-preview": "eslint src --fix-dry-run --format json"
+  },
+  "devDependencies": {
+    "@generaltranslation/react-core-linter": "0.1.15",
+    "eslint": "9.39.1"
+  }
+}
